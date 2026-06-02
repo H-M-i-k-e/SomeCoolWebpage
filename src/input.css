@@ -33,9 +33,9 @@
 
   & p {
     color: white;
-    font-weight: bold;
+    font-weight: 700 !important;
     text-shadow: 0px 2px 5px black;
-    -webkit-text-stroke: max(1px, 0.14em) theme(--color-black);
+    -webkit-text-stroke: 3px theme(--color-black);
     paint-order: stroke fill;
   }
 
@@ -88,14 +88,14 @@
 
   & p {
     color: white;
-    -webkit-text-stroke: max(1px, 0.04em) theme(--color-black);
+    -webkit-text-stroke: max(1px, 0.09vw) theme(--color-black);
     paint-order: stroke fill;
   }
 
   & a {
     color: lightblue;
     text-decoration: underline lightblue;
-    -webkit-text-stroke: max(1px, 0.04em) theme(--color-black);
+    -webkit-text-stroke: max(1px, 0.09vw) theme(--color-black);
     paint-order: stroke fill;
     transition: 200ms;
 
