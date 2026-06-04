@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   overflow-wrap: break-word;
 
   padding: 24px;
@@ -59,6 +60,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   overflow-wrap: break-word;
 
   font-size: clamp(1.50rem, 4vw, 3rem);
